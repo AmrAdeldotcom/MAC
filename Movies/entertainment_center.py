@@ -20,7 +20,7 @@ ratatouille = media.Movie("Ratatouille","A rat is a Chef in Paris",
                         "https://www.youtube.com/watch?v=c3sBBRxDAqk")
 import fresh_tomatoes
 movies = [toy_story, avatar,school_of_rock,ratatouille]
-#fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
 print media.Movie.VALID_RATINGS
 print media.Movie.__doc__
 print media.Movie.__name__
