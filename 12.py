@@ -1,4 +1,4 @@
-<<<<<<< current
+
 # Given the variable countries defined as:
 
 #             Name    Capital  Populations (millions)
@@ -86,7 +86,6 @@ print (find_element([1,2,3],3))
 
 print (find_element(['alpha','beta'],'gamma'))
 #>>> -1
-||||||| after discard
 # Given the variable countries defined as:
 
 #             Name    Capital  Populations (millions)
@@ -174,7 +173,6 @@ print (find_element([1,2,3],3))
 
 print (find_element(['alpha','beta'],'gamma'))
 #>>> -1
-=======
 # Given the variable countries defined as:
 
 #             Name    Capital  Populations (millions)
@@ -262,4 +260,4 @@ print (find_element([1,2,3],3))
 
 print (find_element(['alpha','beta'],'gamma'))
 #>>> -1
->>>>>>> before discard
+
