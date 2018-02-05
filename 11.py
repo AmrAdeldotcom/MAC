@@ -6,7 +6,6 @@
 
 from random import randint
 
-
 def random_verb():
     random_num = randint(0, 1)
     if random_num == 0:
@@ -14,14 +13,12 @@ def random_verb():
     else:
         return "kayak"
 
-
 def random_noun():
     random_num = randint(0, 1)
     if random_num == 0:
         return "sofa"
     else:
         return "llama"
-
 
 def word_transformer(word):
     if word == "NOUN":
@@ -31,6 +28,7 @@ def word_transformer(word):
     else:
         return word[0]
 
+#حلي انا
 def process_madlib(mad_lib):
     processed = ""
     textlen = len(mad_lib)
@@ -47,6 +45,20 @@ def process_madlib(mad_lib):
         i += 1
     return processed
 
+#حل المحاضر
+def process_madlib2(mad_lib):
+	processed = ""
+	index = 0
+	box_length = 4
+	while index <len(mad_lib):
+		frame = mad_lib[index:index + box_length]
+		to_add = word_transformer(frame)
+		processed += to_add
+		if len (to_add) == 1:
+			index += 1
+		else:
+			index += 4
+	return processed
 
 test_string_1 = "This is a good NOUN to use when you VERB your food"
 test_string_2 = "I'm going to VERB to the store and pick up a NOUN or two."
