@@ -28,7 +28,7 @@ def word_transformer(word):
     else:
         return word[0]
 
-#حلي انا
+#my solution
 def process_madlib(mad_lib):
     processed = ""
     textlen = len(mad_lib)
@@ -45,7 +45,7 @@ def process_madlib(mad_lib):
         i += 1
     return processed
 
-#حل المحاضر
+#udacity solution
 def process_madlib2(mad_lib):
 	processed = ""
 	index = 0
