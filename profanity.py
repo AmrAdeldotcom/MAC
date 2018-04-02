@@ -1,4 +1,4 @@
-import urllib
+import urllib, os
 
 def check(text):
     connection = urllib.urlopen("http://www.purgomalum.com/service/containsprofanity?text="+text)
@@ -19,4 +19,3 @@ print check("shit")
 #print read_file(r'D:\Documents\AmrAdel\Desktop\udacity\run_Python_scripts_in_any_Cpanel_Hosting.htm')
 #print read_file('D:/Documents/AmrAdel/Desktop/udacity/run_Python_scripts_in_any_Cpanel_Hosting.htm')
 #print read_file('D:\\Documents\\AmrAdel\\Desktop\\udacity\\run_Python_scripts_in_any_Cpanel_Hosting.htm')
-

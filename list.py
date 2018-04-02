@@ -9,7 +9,7 @@ print id(mylist1) # 87172440
 mylist2 = [1,2,3,4]
 print mylist2 #[1,2,3,4]
 print id(mylist2) # 87172960
-mylist2.append([5,6]) 
+mylist2.append([5,6])
 print  mylist2 # [1, 2, 3, 4, [5, 6]]
 print id(mylist2) # 87172960
 
@@ -45,4 +45,3 @@ while count < list_length:
    count += 1
 
 print random_list2
-
